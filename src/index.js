@@ -76,3 +76,18 @@ import "./styles.css";
 // val5.push("monkey");
 // console.log(val5);
 // >>(3) ["bird", "cat", "monkey"]
+
+/**
+ * テンプレート文字列
+ */
+
+const name = "cherry";
+const age = 8;
+
+//従来の方法
+const massege = "私の名前" + name + "歳は" + age;
+console.log(massege);
+
+//テンプレート文字列を用いた方法
+const massege2 = `私の名前${name}で歳は${age}`;
+console.log(massege2);
