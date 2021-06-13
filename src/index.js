@@ -81,13 +81,13 @@ import "./styles.css";
  * テンプレート文字列
  */
 
-const name = "cherry";
-const age = 8;
+// const name = "cherry";
+// const age = 8;
 
-//従来の方法
-const massege = "私の名前" + name + "歳は" + age;
-console.log(massege);
+// //従来の方法
+// const massege = "私の名前" + name + "歳は" + age;
+// console.log(massege);
 
-//テンプレート文字列を用いた方法
-const massege2 = `私の名前${name}で歳は${age}`;
-console.log(massege2);
+// //テンプレート文字列を用いた方法
+// const massege2 = `私の名前${name}で歳は${age}`;
+// console.log(massege2);
