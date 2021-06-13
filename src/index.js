@@ -91,3 +91,30 @@ import "./styles.css";
 // //テンプレート文字列を用いた方法
 // const massege2 = `私の名前${name}で歳は${age}`;
 // console.log(massege2);
+
+/**
+ * アロー関数
+ */
+
+//従来の関数
+// function func1(str){
+//   return str;
+// }
+
+//関数を変数にいれて使うこともできる
+// const func1 = function(str){
+//   return str;
+// }
+// console.log(func1("func１です"));
+
+// //アロー関数
+// const func2 = (str) => str;
+
+// console.log(func2("func2です"))
+
+/**
+ * デフォルト値、引数など
+ */
+
+// const sayHello = (name="初期値") => console.log(`こんにちは${name}さん`);
+// sayHello();
